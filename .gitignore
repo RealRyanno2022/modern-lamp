@@ -1,0 +1,31 @@
+# Config script
+build_app.sh
+
+# docker compose
+docker-compose.override.yml
+.env.docker
+docker-compose.yml
+nginx.conf
+
+# Laravel 5 & Lumen specific
+Homestead.yaml
+Homestead.json
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+
+# Laravel 5 & Lumen specific
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# Ignore all files in nginx/conf.d directory
+nginx/conf.d/*
+
+
+
+
